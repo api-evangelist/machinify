@@ -1,8 +1,16 @@
 aid: machinify
 name: Machinify
-description: Machinify is a company surfaced as a portfolio company of battery-ventures, gv and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Machinify is an AI-powered healthcare payment integrity platform that streamlines
+  and automates payment processes for health plans. Its products - Coordinate (claims
+  coordination), Subrogate (subrogation management), Audit (payment audit), Pay (payment
+  processing), and Pharmacy (pharmacy payment integrity) - run on a unified data layer
+  that combines claims and medical records, healthcare foundation models trained on
+  billions of data points, and task-specific AI agents with continuous-improvement
+  feedback loops. Machinify reports 85+ customers including 18 of the top 20 US health
+  plans, coverage of 270 million member lives, and more than $6B in annual cost
+  avoidance and recoveries. The company is backed by Battery Ventures and GV. Machinify
+  does not currently publish a public developer API, SDK, or API reference.
 url: https://raw.githubusercontent.com/api-evangelist/machinify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +19,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://machinify.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Payment Integrity
+- Health Insurance
+- Artificial Intelligence
+- Claims
+- Subrogation
+- Pharmacy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://machinify.com
+- type: About
+  url: https://machinify.com/about/
+- type: Compliance
+  url: https://machinify.com/compliance/
+- type: TrustCenter
+  url: security/machinify-trust-center.yml
+- type: DomainSecurity
+  url: security/machinify-domain-security.yml
+- type: TermsOfService
+  url: https://machinify.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://machinify.com/privacy-notice/
+- type: Support
+  url: https://machinify.com/contact/
+- type: SignUp
+  url: https://machinify.com/newsletter-signup/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

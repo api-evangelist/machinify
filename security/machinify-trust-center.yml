@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.machinify.com/compliance
+url: https://www.machinify.com/compliance
+certifications:
+- HITRUST r2
+- SOC 2 Type 2
+- HIPAA
+- HITECH Act
+evidence:
+- source: https://www.machinify.com/compliance
+  keywords:
+  - soc 2
+  - hipaa
+  - compliance certification
+quote: >-
+  Machinify, Inc. and its subsidiaries are HITRUST r2 and/or SOC 2 Type 2
+  compliant, demonstrating our commitment to the highest standards of
+  information security in healthcare.
